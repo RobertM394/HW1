@@ -4,17 +4,20 @@ body {
     background: #464c55;
 }
 
+
 h1 {
     color: black;
-    font-family: "Times New Roman";
-    
+    font-family: "Garamond";
+    font-size: 3em;
 }
 
 h3
 {
     color: darkgrey;
     font-size: 1.4em;
-    text-decoration: bold;
+    font-weight: bold;
+    font-family: "Garamond";
+    text-decoration: underline;
 }
 
 img {
@@ -31,6 +34,12 @@ nav a { /* links within Nav container */
     color: white;
 }
 
+nav a:hover { /* pseudo class */
+    border-bottom:2px black solid;
+    font-size: 2em;
+    transition: 1.2s; /* transition effect */
+}
+
 header, main, nav, footer {
     text-align: center;
 }
@@ -41,11 +50,13 @@ li {
 
 .intro {
     
-    color: lightgrey;
-    font-family: "Times New Roman";
-    padding-left: 20px;
-    padding-right: 20px;
+    color: white;
+    font-size: .9em;
+    font-family: "PT SANS NARROW";
+    margin-right: 10%;
+    margin-left: 10%;
     text-align: center;
+    font-style: italic;
     
 }
 
@@ -58,7 +69,7 @@ li {
 .hackerName {
     
     color: white;
-    font-family: "Times New Roman";
+    font-family: "Garamond";
     font-size: 2em;
 }
 
