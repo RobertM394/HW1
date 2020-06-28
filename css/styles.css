@@ -25,6 +25,11 @@ img {
     padding: 0px;
 }
 
+a {
+    text-decoration: none;
+    color:lightgrey;
+}
+
 nav a { /* links within Nav container */
 
     padding: 15px;
@@ -50,7 +55,7 @@ li {
 
 .intro {
     
-    color: white;
+    color: lightgrey;
     font-size: .9em;
     font-family: "PT SANS NARROW";
     margin-right: 10%;
